@@ -6,7 +6,6 @@ import Header from './components/header/header.component';
 import SignInAndSignUpPage from './pages/sign-in-and-sign-up/sign-in-and-sign-up.component';
 import { Switch, Route } from 'react-router-dom';
 import { auth, createUserProfileDocument } from './firebase/firebase.utils'
-
 // const HatsPage = () => {
 //   return (
 //   <div>
@@ -28,7 +27,6 @@ class App extends React.Component {
   componentDidMount() {
     this.unsubscribeFromAuth = auth.onAuthStateChanged(async userAuth => {
       //this.setState({currentUser: user});
-
       if (userAuth) {
         const userRef = await createUserProfileDocument(userAuth);
         userRef.onSnapshot(snapShot => {
@@ -39,7 +37,7 @@ class App extends React.Component {
               ...snapShot.data()
             }
           }, () => {
-            console.log("my account  "+ this.state)
+            console.log("My Account:  "+ this.state)
           })
         });
       }
@@ -49,6 +47,7 @@ class App extends React.Component {
       }
     })
   }
+
   componentWillUnmount() {
     this.unsubscribeFromAuth();
   }
@@ -65,7 +64,6 @@ class App extends React.Component {
       </div>
     );
   }
-  
 }
 
 export default App;
