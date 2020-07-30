@@ -1,3 +1,49 @@
+# Crwn Clothing (Ecommerce Project) 
+
+
+
+<!-- ABOUT THE PROJECT -->
+## Project Screenshots
+
+### Home Page
+
+![Home Page](https://github.com/meharfatimakhan/crwn-clothing/blob/master/HomePage.PNG?raw=true)
+
+
+### Shop Page
+
+![Shop Page](https://github.com/meharfatimakhan/crwn-clothing/blob/master/ShopPage.PNG?raw=true)
+
+
+### Empty Cart
+
+![Empty Page](https://github.com/meharfatimakhan/crwn-clothing/blob/master/CartEmpty.PNG?raw=true)
+
+
+### Cart with Items
+
+![Cart With Items](https://github.com/meharfatimakhan/crwn-clothing/blob/master/CartWithItems.PNG?raw=true)
+
+
+### Checkout
+
+![Checkout Page](https://github.com/meharfatimakhan/crwn-clothing/blob/master/CheckoutCounter.PNG?raw=true)
+
+
+### Sign Up and Sign In Page
+
+![Sign Up and Sign In Page](https://github.com/meharfatimakhan/crwn-clothing/blob/master/SIGNUP-SIGNIN.PNG?raw=true)
+
+
+### User Signed In
+
+![SignedIn](https://github.com/meharfatimakhan/crwn-clothing/blob/master/SignedIn.PNG?raw=true)
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
