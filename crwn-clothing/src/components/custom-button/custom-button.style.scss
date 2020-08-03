@@ -16,15 +16,6 @@
     display: flex;
     justify-content: center;
 
-    &.google-sign-in {
-      background-color: #4265f4;
-      color:white;
-      &:hover {
-        background-color: #357ae8;
-        border: none;
-      }
-    }
-  
     &:hover {
       background-color: white;
       color: black;
@@ -39,6 +30,15 @@
       &:hover {
         background-color: black;
         color: white;
+        border: none;
+      }
+    }
+
+    &.google-sign-in {
+      background-color: #4265f4;
+      color:white;
+      &:hover {
+        background-color: #357ae8;
         border: none;
       }
     }
